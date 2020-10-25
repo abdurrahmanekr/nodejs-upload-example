@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-upload-example",
+  "version": "1.0.0",
+  "description": "Node.js file upload example",
+  "main": "index.js",
+  "repository": "https://github.com/abdurrahmanekr/nodejs-upload-example",
+  "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
