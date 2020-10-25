@@ -68,9 +68,9 @@ class App extends Component {
 
     // form data türündeki dosya verisi
     const file = {
-      uri : response.uri, // dosyanın yolur
+      uri : response.uri, // dosyanın yolu
       type: response.type, // dosyanın mimeType değeri
-      name: response.fileName, // dosyanın ismi
+      name: response.fileName || `auto-file-${+new Date()}`, // dosyanın ismi
     };
 
     // multipart/form-data şeklinde gönderilebilmesi için FormData şeklinde tanımlanıyor
